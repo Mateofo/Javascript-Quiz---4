@@ -84,14 +84,14 @@ function manageUserSelection (userSelection) {
         return endQuiz()
     } runQuiz()
 }
-{
+
     function endQuiz() {
         timer.style.display = "none"
         questions.style.display = "none"
         choices.style.display = "none"
         initials.style.display = "block"
     }
-}
+
 
 function onPageLoad() {
     initials.style.display = "none"
