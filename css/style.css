@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+    height: 100vh;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10pt;
+    background-color: aqua;
+}
+
+choices {
+    display: flex;
+    flex-direction: column;
+}
+
+.hide {
+    display: none;
+}
